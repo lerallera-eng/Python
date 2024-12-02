@@ -1,0 +1,9 @@
+import math
+p=float(input())
+x=int(input())
+y=int(input())
+s=x*100+y
+n=s+s*p/100
+x1=math.floor(n//100)
+y1=math.floor(n%100)
+print(x1, y1)
