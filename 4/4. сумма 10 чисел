@@ -1,4 +1,4 @@
-A=int(input())
-B=int(input())
-for i in range ((A-(A+1)%2), (B-B%2), -2):
-    print(i)
+s = 0
+for i in range(10):
+    s += int(input())
+print(s)
