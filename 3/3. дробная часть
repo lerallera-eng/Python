@@ -1,0 +1,4 @@
+import math
+n=float(input())
+m=math.floor(n)
+print(n-m)
