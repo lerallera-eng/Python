@@ -1,0 +1,5 @@
+import math
+x=float(input())
+y=x*10
+n=y%10
+print(math.floor(n))
