@@ -1,0 +1,10 @@
+x1=int(input())
+x2=int(input())
+x3=int(input())
+y1=int(input())
+y2=int(input())
+y3=int(input())
+s1=x1*60*60+x2*60+x3
+s2=y1*60*60+y2*60+y3
+n=s2-s1
+print(n)
