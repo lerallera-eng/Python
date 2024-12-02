@@ -1,0 +1,4 @@
+x=int(input())
+d=x%100-x%10
+h=d/10
+print(h)
