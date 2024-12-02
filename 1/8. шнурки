@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+l=int(input())
+N=int(input())
+s=(l+(a+b)*(N-1))*2+a
+print(s)
