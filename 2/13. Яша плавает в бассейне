@@ -1,0 +1,22 @@
+N=int(input())
+M=int(input())
+x=int(input())
+y=int(input())
+if N>M:
+    if x<=y and x<=(M-x) and x<=(N-y):
+        print(x)
+    elif y<=x and y<=(M-x) and y<=(N-y):
+        print(y)
+    elif (M-x)<=x and (M-x)<=y and (M-x)<=(N-y):
+        print(M-x)
+    elif (N-y)<=x and (N-y)<=y and (N-y)<=(M-x):
+        print(N-y)
+if N<M:
+    if x<=y and x<=(M-y) and x<=(N-x):
+        print(x)
+    elif y<=x and y<=(M-y) and y<=(N-x):
+        print(y)
+    elif (M-y)<=x and (M-y)<=y and (M-y)<=(N-x):
+        print(M-y)
+    elif (N-x)<=x and (N-x)<=y and (N-x)<=(M-y):
+        print(N-x)
