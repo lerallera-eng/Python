@@ -1,0 +1,6 @@
+s=input()
+a=s.find('h')
+b=s.rfind('h')
+k=s[a:(b+1)]
+n=(s[:a]+k[::-1]+s[b+1:])
+print(n)
