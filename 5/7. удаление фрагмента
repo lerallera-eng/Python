@@ -1,0 +1,5 @@
+s=input()
+a=s.find('h')
+b=s.rfind('h')
+n=(s[:a]+s[b+1:])
+print(n)
