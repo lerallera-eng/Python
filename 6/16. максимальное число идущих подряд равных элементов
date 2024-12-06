@@ -1,0 +1,13 @@
+n=int(input())
+i=1
+j=0
+while n!=0:
+    m=int(input())
+    n, m=m, n
+    if m==n:
+        i+=1
+    if i>j:
+        j=i
+    if n!=m:
+        i=1
+print(j)
