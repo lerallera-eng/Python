@@ -1,0 +1,17 @@
+a=int(input())  
+b=int(input()) 
+if a>b:
+    MAX1, MAX2=a, b
+else:
+    MAX1, MAX2=b, a
+
+while True:
+    n=int(input())
+    if n==0: 
+        break
+    if n>MAX1: 
+        MAX2=MAX1
+        MAX1=n
+    elif n>MAX2:
+        MAX2=n
+print(MAX2) 
