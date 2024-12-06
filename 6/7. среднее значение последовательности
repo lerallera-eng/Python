@@ -1,0 +1,10 @@
+s=0
+i=0
+while True:
+    n=int(input())
+    i+=1
+    if n==0:
+        break
+    s+=n
+    k=s/i
+print(k) 
