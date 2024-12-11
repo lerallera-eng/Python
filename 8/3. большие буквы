@@ -1,0 +1,9 @@
+def capitalize(word):
+    s=word[0]
+    b=chr(ord(s)-ord('a')+ord('A'))
+    print(b+word[1:])
+ 
+n=input().split()
+m=[]
+for word in n:
+    m.append(capitalize(word))
