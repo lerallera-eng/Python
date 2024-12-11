@@ -1,0 +1,16 @@
+l=8
+a=[]
+b=[]
+for i in range(l):
+    a1, b1=[int(s) for s in input().split()]
+    a.append(a1)
+    b.append(b1)
+t=0
+for i in range(l):
+    for j in range(i+1, l):
+        if a[i]==a[j] or b[i]==b[j] or abs(a[i]-a[j])==abs(b[i]-b[j]):
+            t=t+1
+if t>0:
+    print('YES')
+else:
+    print('NO')
