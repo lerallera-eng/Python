@@ -1,0 +1,7 @@
+a=[int(s) for s in input().split()]
+k=1
+p=int(input())
+for i in range(len(a)):
+    if a[i]>=p:
+        k=k+1
+print(k)
