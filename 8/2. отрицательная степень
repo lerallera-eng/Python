@@ -1,0 +1,11 @@
+def power(a, n):
+    x=1
+    for i in range(abs(n)):
+        x=x*a
+    if n >= 0:
+        print(x)
+    else:
+        print(1/x)
+a=float(input())
+n=int(input())
+power(a, n)
