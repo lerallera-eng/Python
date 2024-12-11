@@ -1,0 +1,5 @@
+n=input()
+m=n.split()
+for i in range(len(m)):
+   if int (m[i])%2==0:
+        print(m[i])
